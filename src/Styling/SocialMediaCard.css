@@ -1,10 +1,14 @@
 /* SocialMediaCard.css */
-
+.social-media-containers {
+  display: flex;
+}
 .social-media-card {
-  border: 1px solid #ccc;
   padding: 15px;
   margin: 10px;
+  height: 93vh;
   text-align: center;
+  border-right: 2px solid #c6c0c0;
+  width: 20%;
 }
 
 .profile-picture {
@@ -39,4 +43,29 @@
 .follower-count {
   color: #555;
   margin: 10px 0;
+}
+.post-message {
+  width: 80%;
+  text-align: center;
+}
+textarea {
+  width: 300px;
+  height: 50px;
+  padding: 5px 5px;
+}
+.follow-button {
+  height: 30px;
+}
+.posts {
+  margin-top: 5em;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: start;
+}
+h3 {
+  text-align: center;
+}
+.post-list {
+  gap: 10em;
 }
