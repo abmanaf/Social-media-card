@@ -1,0 +1,42 @@
+/* SocialMediaCard.css */
+
+.social-media-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+
+.profile-picture {
+  background-image: url("profile-picture.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 150px; /* Adjust the width and height as needed */
+  height: 150px;
+  margin: 0 auto; /* Center the profile picture */
+  border-radius: 50%;
+}
+
+.follow-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Additional styling for other elements */
+.username {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.bio {
+  margin: 10px 0;
+}
+
+.follower-count {
+  color: #555;
+  margin: 10px 0;
+}
