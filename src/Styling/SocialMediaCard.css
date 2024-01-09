@@ -1,4 +1,3 @@
-/* SocialMediaCard.css */
 .social-media-containers {
   display: flex;
 }
@@ -15,9 +14,9 @@
   background-image: url("profile-picture.jpg");
   background-size: cover;
   background-position: center;
-  width: 150px; /* Adjust the width and height as needed */
+  width: 150px;
   height: 150px;
-  margin: 0 auto; /* Center the profile picture */
+  margin: 0 auto;
   border-radius: 50%;
 }
 
@@ -30,7 +29,6 @@
   margin-top: 10px;
 }
 
-/* Additional styling for other elements */
 .username {
   font-size: 1.5em;
   margin: 10px 0;
